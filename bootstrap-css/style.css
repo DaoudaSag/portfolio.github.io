@@ -5,7 +5,13 @@ body {
     background-attachment: fixed;
     background-size: cover;    
     overflow-x: auto; 
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+}
+
+main{
+  flex: 1;
 }
 
 .nav-link:hover{
@@ -40,7 +46,7 @@ h1{
 }
 
 footer{
-
+  margin-top: auto;
   border-top: solid 0.1vw #3B71CA;
 }
 
@@ -50,7 +56,7 @@ header{
 
 
 .photoProfil{
-  height: 100%;
+  height: 50%;
   width: 100%;
   
 }
